@@ -1,0 +1,1 @@
+.flip-inner[data-v-d2fce80b]{position:relative;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.4,.2,.2,1)}.is-flipped[data-v-d2fce80b]{transform:rotateY(180deg)}.flip-face[data-v-d2fce80b]{position:absolute;top:0;right:0;bottom:0;left:0;backface-visibility:hidden;perspective:1200px}.flip-back[data-v-d2fce80b]{transform:rotateY(180deg)}
