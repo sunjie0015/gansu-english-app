@@ -15,9 +15,16 @@
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231f7263'/%3E%3Ctext x='50' y='70' font-size='54' font-family='sans-serif' text-anchor='middle' fill='%23ffffff'%3EE%3C/text%3E%3C/svg%3E"
     />
+    <!-- 应用清单：告诉手机浏览器"这个站可以像 App 一样装到桌面"，并给出名字、图标、主题色。
+         文件本体在 public/manifest.webmanifest，打包后落在 dist 根目录 -->
+    <link rel="manifest" href="/gansu-english-app/manifest.webmanifest" />
+    <!-- 苹果设备"添加到主屏幕"时用的图标（iOS 不认 manifest 里的图标，只认这一行） -->
+    <link rel="apple-touch-icon" href="/gansu-english-app/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <!-- 页面标题：浏览器标签页和你分享给别人时看到的名称 -->
     <title>甘肃专升本英语单词通</title>
-    <script type="module" crossorigin src="/gansu-english-app/assets/index-D8QuDnL3.js"></script>
+    <script type="module" crossorigin src="/gansu-english-app/assets/index-BgfaViV-.js"></script>
     <link rel="stylesheet" crossorigin href="/gansu-english-app/assets/index-BloxhP20.css">
   </head>
   <body>
